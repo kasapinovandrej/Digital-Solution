@@ -1,0 +1,51 @@
+:root {
+  --color-1: #197daa;
+  --color-2: #4e9bbd;
+  --color-3: #95bace;
+  --color-4: #ffffff;
+  --color-4-hover: #c4c2c2;
+  --color-5: #197ba963;
+  --color-6: hsla(199, 74%, 38%, 0.14);
+}
+
+//@media only screen and (max-width: $bp--530)
+//$bp--1820: 113.75em;
+//$bp--1570: 98.13em;
+//$bp--1400: 87.5em;
+$bp--1170: 73.13em;
+$bp--940: 58.75em;
+$bp--890: 55.62em;
+$bp--770: 48.2em;
+//$bp--680: 42.5em;
+//$bp--530: 33.15em;
+$bp--412: 25.75em;
+$bp--250: 15.63em;
+// @media only screen and (max-width: $bp--940) {}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 45%;
+  @media only screen and (max-width: $bp--412) {
+    font-size: 30%;
+  }
+}
+
+body {
+  //font-family: "AgencyFB", sans-serif;
+  //font-family: "Roboto Condensed", sans-serif;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  position: relative;
+}

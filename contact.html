@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Digital Solution</title>
+    <link rel="shortcut icon" type="image/png" href="img/Boostr-digital-logo-tab.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toogle">
+
+        <label for="navi-toogle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="index.html" class="navigation__link">naslovna</a></li>
+                <li class="navigation__item"><a href="portfolio.html" class="navigation__link">portfolio</a></li>
+                <li class="navigation__item"><a href="about.html" class="navigation__link">o nama</a></li>
+                <li class="navigation__item"><a href="contact.html" class="navigation__link">kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <div class="header">
+            <div class="header__contakt">
+                <a href="tel:0038163-78-28-541" class="header__link">
+                    <ion-icon class="header__icon" name="call"></ion-icon>
+                    <p class="header__text">(00381)63-78-28-541</p>
+                </a>
+                <a href="tel:0038169-44-89-990" class="header__link">
+                    <ion-icon class="header__icon" name="call"></ion-icon>
+                    <p class="header__text">(00381)69-44-89-990</p>
+                </a>
+                <a href="mailto:office@digitalsolution.com" class="header__link">
+                    <ion-icon class="header__icon" name="mail"></ion-icon>
+                    <p class="header__text">office@digitalsolution.rs</p>
+                </a>
+            </div>
+            <div class="header__soc">
+                <a href="#" class="header__link">
+                    <ion-icon class="header__icon" name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#" class="header__link">
+                    <ion-icon class="header__icon" name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#" class="header__link">
+                    <ion-icon class="header__icon" name="logo-linkedin"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="nav">
+            <img src="img/BD-logo.png" alt="Logo" class="nav__img">
+            <ul class="nav__ul">
+                <li class="nav__list"><a href="index.html" class="nav__link ">naslovna</a></li>
+                <li class="nav__list"><a href="portfolio.html" class="nav__link">portfolio</a></li>
+                <li class="nav__list"><a href="about.html" class="nav__link">o nama</a></li>
+                <li class="nav__list"><a href="contact.html" class="nav__link active">kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="contactus">
+        <div class="contactus__elements">
+            <img src="img/CONTACT/Group 716.png" alt="1" class="contactus__img">
+            <h1 class="contactus__h1">kontakt</h1>
+            <img src="img/CONTACT/Group 727.png" alt="2" class="contactus__img">
+        </div>
+    </section>
+    <section class="contactinfo">
+        <div class="contactinfo__elements">
+            <h2 class="contactinfo__h2">Stupite u kontakt sa nama!</h2>
+            <div class="contactinfo__div">
+                <div class="contactinfo__div1">
+                    <img src="img/CONTACT/Icon material-smartphone.png" alt="1" class="contactinfo__img">
+                    <h1 class="contactinfo__text2">phone</h1>
+                    <h2 class="contactinfo__text1">+381637828541</h2>
+                    <h2 class="contactinfo__text1">+381694489990</h2>
+
+                </div>
+                <div class="contactinfo__div1 contactinfo__div1--mid">
+                    <img src="img/CONTACT/Icon material-location-on.png" alt="2" class="contactinfo__img">
+                    <h1 class="contactinfo__text2">adress</h1>
+                    <h2 class="contactinfo__text1">Kraljevo, SRBIJA</h2>
+                </div>
+                <div class="contactinfo__div1 contactinfo__div1">
+                    <img src="img/CONTACT/Icon material-mail-outline.png" alt="1" class="contactinfo__img">
+                    <h1 class="contactinfo__text2">e-mail</h1>
+                    <h2 class="contactinfo__text1">office@digitalsolution.rs</h2>
+                </div>
+            </div>
+            <h1 class="contactinfo__h1">UKOLIKO IMATE PITANJE ZA NAS,<br> MOLIMO, POŠALJITE NAM PORUKU
+            </h1>
+        </div>
+    </section>
+    <section class="form">
+        <form class="form__box" method="POST" action="form-contact.php">
+            <img src="img/Group 667.png" alt="1" class="form__spaceman">
+            <div class="form__left">
+                <h1 class="form__h1">Pišite nam</h1>
+                <div class="form__group">
+                    <input class="form__input" name="name" type="text" placeholder="Ime i prezime" required>
+                    <label for="name" class="form__label">Ime i prezime</label>
+                </div>
+                <div class="form__group">
+                    <input class="form__input" name="email" type="email" placeholder="E-mail Adresa" required>
+                    <label for="email" class="form__label">E-mail adresa</label>
+                </div>
+            </div>
+            <div class="form__right">
+                <div class="form__boxright">
+                    <label for="text" class="form__label form__label1">Vaša poruka</label>
+                    <textarea class="form__textarea" name="message" placeholder="Unesite Vašu poruku ovde..."
+                        required></textarea>
+                </div>
+                <button class="form__button" type="submit">pošaljite poruku</button>
+            </div>
+        </form>
+    </section>
+    <section class="socmed">
+        <div class="socmed__box">
+            <h2 class="socmed__h2">Povežite se sa nama!</h2>
+            <div class="socmed__icons">
+                <a href="#" class="socmed__link">
+                    <ion-icon name="logo-facebook" class="socmed__icn"></ion-icon>
+                </a>
+                <a href="#" class="socmed__link">
+                    <ion-icon name="logo-instagram" class="socmed__icn"></ion-icon>
+                </a>
+                <a href="#" class="socmed__link">
+                    <ion-icon name="logo-linkedin" class="socmed__icn"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="fooetr">
+        <div class="footsection">
+            <div class="footer">
+                <div class="footer__logo">
+                    <a href="index.html">
+                        <img src="img/Boostr-digital-logo.png" alt="1" class="footer__logo--img">
+                    </a>
+                </div>
+                <div class="info">
+                    <h2 class="info__text">Informacije</h2>
+                    <ul class="info__list">
+                        <a href="about.html" class="info__link">O nama</a>
+                        <a href="contact.html" class="info__link">Kontakt</a>
+                        <a href="portfolio.html" class="info__link">Portfolio</a>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h2 class="info__text">Kontakt</h2>
+                    <a href="tel:0038163-78-28-541" class="info__link1">
+                        <ion-icon class="info__icon1" name="call"></ion-icon>
+                        <p class="info__text1">(00381)63-78-28-541</p>
+                    </a>
+                    <a href="tel:0038169-44-89-990" class="info__link1">
+                        <ion-icon class="info__icon1" name="call"></ion-icon>
+                        <p class="info__text1">(00381)69-44-89-990</p>
+                    </a>
+
+                    <a href="mailto:office@digitalsolution.com" class="info__link1">
+                        <ion-icon class="info__icon1" name="mail"></ion-icon>
+                        <p class="info__text1">office@digitalsolution.rs</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <h2 class="foot__text">&copy; 2020. Digital Solution. All rights reserved!</h2>
+        </div>
+    </footer>
+</body>
+
+</html>
